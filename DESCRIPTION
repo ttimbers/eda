@@ -1,0 +1,19 @@
+Package: eda
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("G. Alexi", "Rodriguez-Arelis", , "alexrod@stat.ubc.ca", role = c("aut", "cre"))
+Description: Provide data wrangling and summary functions to conduct a proper 
+    exploratory data analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr
+VignetteBuilder: knitr
